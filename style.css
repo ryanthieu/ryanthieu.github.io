@@ -1,0 +1,127 @@
+body {
+background-color: white;
+font-family: 'Calibri';
+margin:0; 
+padding: 0;
+}
+
+.navigation li {
+font-weight: 200px;
+font-size:x-large;
+font-family: Raleway;
+
+}
+
+#aboutme {
+    text-align: center;
+    
+}
+
+
+.currentprojects {
+    height:225px;
+    background-color:white;
+}
+#h1current{
+    text-align: center;
+}
+
+#currentpara{
+margin-left:200px;
+}
+
+#h2header{
+    margin-left:100px;
+}
+
+#aboutme {
+height: 225px; 
+background-color: #fcbb44;
+}
+
+#h1ec{
+text-align: center;
+}
+
+.extracurriculars{
+    height:400px;
+    background-color:#fcbb44;
+}
+.navigation {
+    background-color: white;
+    font-family: Inter;
+    
+}
+
+
+
+span{
+    border:0px solid tan;
+background-color: #fcbb44;
+
+}
+
+.fa-solid_fa-user{
+margin:100px; 
+}
+
+#email{
+    text-align: center;
+    height:250px;
+    background-color:antiquewhite;
+}
+
+#email p{
+    font-size: x-large;
+}
+
+.fa-solid_fa-house{
+    margin:0;
+}
+
+
+.header{
+    position: sticky;
+ top:0;
+ padding:3px;
+}
+
+.typed-out {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space:nowrap;
+    font-size: 3rem;
+    width:0;
+    animation: typing 2s steps(17,end) forwards;
+   
+    
+    }
+    
+    .container{
+        display:inline-block;
+    }
+    
+    @keyframes typing {
+        from { width:0 }
+        to { width: 100%}
+    }
+.social {
+    text-align:center;
+    display:inline;
+}
+
+
+/**.dropdown-content{
+display:none;
+position:absolute;
+background-color: white;
+}
+
+.dropbutton{
+    border:none;
+    cursor:pointer;
+}/
+
+/*
+
+*/
