@@ -1,6 +1,7 @@
 body {
-background-color: white;
-font-family: 'Calibri';
+background-color: #121212;
+font-family:'Calibri';
+color:white;
 margin:0; 
 padding: 0;
 }
@@ -8,17 +9,22 @@ padding: 0;
 .navigation li {
 font-weight: 200px;
 font-size:x-large;
-font-family: Raleway;
+font-family: Calibri;
 
 }
 
+#navcolor{
+    background-color: #121212;
+    
+}
 
 #currentprojects {
     height:450px;
-    background-color:white;
+    background-color:#121212;
 }
 #h1current{
     text-align: center;
+    color:#0077B5;
 }
 
 #currentpara{
@@ -32,7 +38,7 @@ margin-right:200px;
 
 #aboutme {
 height: 600px; 
-background-color: #fcbb44;
+background-color: #121212;
 text-align: center;
 }
 
@@ -42,11 +48,12 @@ img{
 
 #h1ec{
 text-align: center;
+color:#0077B5;
 }
 
 #extracurriculars{
     height:450px;
-    background-color:#fcbb44;
+    background-color:#121212;
 }
 .navigation {
     font-family: Inter;
@@ -123,8 +130,8 @@ margin:100px;
 }
 
 header{
-    background-color:white;
-    margin-bottom:10px;
+    background-color:#121212;
+    margin-bottom: 10px;
     padding-bottom:5px;
     padding-top:5px;
     /*border: solid*/
@@ -148,9 +155,14 @@ header{
 #intro{
     margin-left:500px;
     margin-right:500px;
+    font-family:Calibri;
 }
 
 #sociallink{
     text-align: center; 
-    font-family: Roboto;
+    font-family: Calibri;
+}
+
+#iconcolor{
+    color:#0077B5;
 }
