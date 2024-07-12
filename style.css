@@ -18,10 +18,7 @@ font-family: Calibri;
     
 }
 
-#currentprojects {
-    height:450px;
-    background-color:#121212;
-}
+
 #h1current{
     text-align: center;
     color:#0077B5;
@@ -30,10 +27,26 @@ font-family: Calibri;
 #currentpara{
 margin-left:200px;
 margin-right:200px;
+min-width: 200px;
+
+}
+
+#ecpara{
+    margin-left:200px;
+    margin-right:200px;
+    min-width: 200px;
+    
+}
+
+#sociallink{
+    min-width:200px;
 }
 
 #h2header{
     margin-left:100px;
+    min-width:100px;
+    max-width: 500px;
+    
 }
 
 #aboutme {
@@ -49,6 +62,7 @@ img{
 #h1ec{
 text-align: center;
 color:#0077B5;
+flex-wrap:wrap;
 }
 
 #extracurriculars{
@@ -153,16 +167,22 @@ header{
 }
 
 #intro{
-    margin-left:500px;
-    margin-right:500px;
+    margin-left:400px;
+    margin-right:400px;
     font-family:Calibri;
+    max-height: 500px;
+    justify-content: center;
+    min-width:200px;
+    flex-wrap: wrap;
+    
+
+
+
 }
 
-#sociallink{
-    text-align: center; 
-    font-family: Calibri;
-}
+
 
 #iconcolor{
     color:#0077B5;
 }
+
